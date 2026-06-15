@@ -13,6 +13,9 @@ public class Selecao {
     private String nome;
     private String grupo;
 
+    public Selecao() {
+    }
+
     public Selecao(Long id, String nome, String grupo) {
         this.id = id;
         this.nome = nome;
