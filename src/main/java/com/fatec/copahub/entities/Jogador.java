@@ -1,4 +1,4 @@
-package main.java.com.fatec.copahub.entities;
+package com.fatec.copahub.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -58,4 +58,9 @@ public class Jogador {
 
     @ManyToOne
     private Selecao selecao;
+
+    public Long getId() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getId'");
+    }
 }

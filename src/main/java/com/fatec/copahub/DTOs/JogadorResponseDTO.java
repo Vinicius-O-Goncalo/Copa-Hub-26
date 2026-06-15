@@ -1,16 +1,13 @@
-package main.java.com.fatec.copahub.DTOs;
-
-import main.java.com.fatec.copahub.entities.Jogador;
+package com.fatec.copahub.DTOs;
 
 public record JogadorResponseDTO(
     Long id,
-    String name,
-    String posicao,
+    String nome,
     Integer numero,
-    Integer gols
+    String posicao,
+    Integer gols,
+    String selecao
     
 ) {
-    public JogadorResponseDTO(Jogador jogador) {
-        this(jogador.getId(), jogador.getNome(), jogador.getPosicao(), jogador.getNumero(), jogador.getGols());
-    }
+   
 }
