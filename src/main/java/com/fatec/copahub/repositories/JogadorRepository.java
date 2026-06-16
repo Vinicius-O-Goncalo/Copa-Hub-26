@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface JogadorRepository extends JpaRepository<Jogador, Long> {
     
-    List<Jogador> findAllbyOrderbyGolsDesc();
+    List<Jogador> findAllByOrderByIdDesc();
 }

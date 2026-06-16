@@ -28,7 +28,7 @@ public class JogadorService {
     }
 
     public List<Jogador> artilharia() {
-        return repository.findAllbyOrderbyGolsDesc();
+        return repository.findAllByOrderByIdDesc();
     }
 
     public Jogador criar(JogadorRequestDTO dto) {

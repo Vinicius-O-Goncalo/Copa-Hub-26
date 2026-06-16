@@ -31,6 +31,10 @@ public class Partida {
         this.golsVisitante = 0;
     }
 
+    public Partida() {
+        //TODO Auto-generated constructor stub
+    }
+
     public LocalDate getData() {
         return data;
     }
@@ -69,5 +73,10 @@ public class Partida {
 
     public void setGolsVisitante(int golsVisitante) {
         this.golsVisitante = golsVisitante;
+    }
+
+    public Long getId() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getId'");
     }
 }
